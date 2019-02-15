@@ -1,0 +1,26 @@
+hay un reglamento de uso instalaciones deportivas para prestamo u alquiler de las instalaciones deportivas. Por ejemplo 8 dias de anticipacion...
+
+Lo que se quiere es una pagina que maneje la solicitud y la aceptacion de las instalaciones. A diferencia de usar el correo para ir manejando uno por uno y ser cuello de botella.
+
+Reemplazar los correos por la plataforma.
+
+Casos de Uso
+
+Manuel
+
+	Visualizar solicitudes por instalacion
+	Aceptar (o negar) solicitudes por instalacion (Enviar notificacion de aceptacion)
+	Visualizar reservaciones por instalación
+	Crear evento en calendario
+	Modificar evento en calendario
+	Crear Instalación (Seleccionar intervalos de horas)
+	Borrar Instalación
+
+Solicitante
+
+	Solicitar instalacion
+	Ver reglamentos por instalacion
+	Cancelar Reservación
+
+
+	CRUD (Bases de Datos)
