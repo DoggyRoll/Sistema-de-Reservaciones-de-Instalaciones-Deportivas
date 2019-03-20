@@ -1,0 +1,33 @@
+﻿Hay un reglamento de uso instalaciones deportivas para prestamo o alquiler de las instalaciones deportivas. 
+Por ejemplo 8 dias de anticipacion se necesita pedir las instalaciones pero usualmente se permite con anticipación de 3 días...
+Lo que se quiere es una página que maneje la solicitud y la aceptacón de las instalaciones y dejar
+de usar el correo para ir tratando cada solicitud una por una lo cual es sumamente ineficiente.
+
+Resumen: Reemplazar los correos por la plataforma.
+
+El cliente, don Manuel, maneja las reservaciones en un archivo excel el cual tiene varias pestañas para cada instalación deportiva.
+En cada pestaña se tienen horas por día y días por semanas lectivas.
+Se adjunta el documento exccel para una mejor comprensión.
+
+Casos de Uso
+
+Administrador (Manuel)
+
+	Visualizar solicitudes por instalacion
+	Aceptar (o negar) solicitudes por instalacion (Enviar notificacion de aceptacion)
+	Visualizar reservaciones por instalación
+	Crear evento en calendario
+	Modificar evento en calendario
+	Crear Instalación (Seleccionar intervalos de horas)
+	Borrar Instalación
+
+Solicitante
+
+	Solicitar instalacion
+	Ver reglamentos por instalacion
+	Cancelar Reservación
+
+
+	CRUD (Base de Datos)
+
+11 Casos en Total.
